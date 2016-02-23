@@ -24,7 +24,6 @@
 		3E4D93AB1C7C27A700F9296B /* daniel1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A21C7C27A700F9296B /* daniel1.mp3 */; };
 		3E4D93AC1C7C27A700F9296B /* van1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A31C7C27A700F9296B /* van1.mp3 */; };
 		3E4D93AD1C7C27A700F9296B /* damn2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A41C7C27A700F9296B /* damn2.mp3 */; };
-		3E4D93B11C7C2AB200F9296B /* white_van.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93B01C7C2AB200F9296B /* white_van.jpg */; };
 		3E4D93B51C7C384400F9296B /* damn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93B41C7C384400F9296B /* damn1.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +68,6 @@
 		3E4D93A21C7C27A700F9296B /* daniel1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel1.mp3; sourceTree = "<group>"; };
 		3E4D93A31C7C27A700F9296B /* van1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = van1.mp3; sourceTree = "<group>"; };
 		3E4D93A41C7C27A700F9296B /* damn2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn2.mp3; sourceTree = "<group>"; };
-		3E4D93B01C7C2AB200F9296B /* white_van.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_van.jpg; sourceTree = "<group>"; };
 		3E4D93B41C7C384400F9296B /* damn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 		3E4D93691C7C22C400F9296B /* Back at it again! */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D93B01C7C2AB200F9296B /* white_van.jpg */,
 				3E4D93AF1C7C28DC00F9296B /* Sounds */,
 				3E4D936A1C7C22C400F9296B /* AppDelegate.swift */,
 				3E4D936C1C7C22C400F9296B /* ViewController.swift */,
@@ -282,7 +279,6 @@
 				3E4D93751C7C22C400F9296B /* Assets.xcassets in Resources */,
 				3E4D93A81C7C27A700F9296B /* daniel3.mp3 in Resources */,
 				3E4D939C1C7C232C00F9296B /* DAMN DANIEL.mp3 in Resources */,
-				3E4D93B11C7C2AB200F9296B /* white_van.jpg in Resources */,
 				3E4D93A61C7C27A700F9296B /* justback1.mp3 in Resources */,
 				3E4D93AA1C7C27A700F9296B /* damn3.mp3 in Resources */,
 				3E4D93AC1C7C27A700F9296B /* van1.mp3 in Resources */,
