@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Back_at_it_again_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwg-ID-rRT">
+                                <rect key="frame" x="255" y="255" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="FzV-EH-Myp"/>
+                                    <constraint firstAttribute="width" constant="90" id="TD0-a4-tnr"/>
+                                </constraints>
+                                <state key="normal" title="Play Full"/>
+                                <connections>
+                                    <action selector="playFull:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tac-bZ-rIt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izz-eN-zPg">
+                                <rect key="frame" x="255" y="412" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="szr-Qq-wUc"/>
+                                    <constraint firstAttribute="height" constant="90" id="zx5-yC-X8O"/>
+                                </constraints>
+                                <state key="normal" title="Stop Sound"/>
+                                <connections>
+                                    <action selector="stopSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FcX-bV-xQz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcj-Jt-W4R">
+                                <rect key="frame" x="45" y="87" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="HzE-LU-ahL"/>
+                                    <constraint firstAttribute="height" constant="90" id="xen-IT-HLl"/>
+                                </constraints>
+                                <state key="normal" title="DAMN 1"/>
+                                <connections>
+                                    <action selector="playDamn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qk-pN-nHz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bed-La-eix">
+                                <rect key="frame" x="255" y="87" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="TDZ-EE-kqV"/>
+                                    <constraint firstAttribute="height" constant="90" id="oaA-hP-wz8"/>
+                                </constraints>
+                                <state key="normal" title="DAMN 2"/>
+                                <connections>
+                                    <action selector="playDamn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3EW-Wd-cT7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0j-IZ-MJ0">
+                                <rect key="frame" x="465" y="87" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="bB5-du-ih3"/>
+                                    <constraint firstAttribute="height" constant="90" id="of6-wF-Q7C"/>
+                                </constraints>
+                                <state key="normal" title="DAMN 3"/>
+                                <connections>
+                                    <action selector="playDamn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUn-Xv-xMU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pwg-ID-rRT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1YX-g1-daO"/>
+                            <constraint firstItem="Izz-eN-zPg" firstAttribute="top" secondItem="pwg-ID-rRT" secondAttribute="bottom" constant="67" id="5Cf-co-idQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l0j-IZ-MJ0" secondAttribute="trailing" constant="25" id="Cwh-Mm-wST"/>
+                            <constraint firstItem="pwg-ID-rRT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F2M-7X-YaC"/>
+                            <constraint firstItem="Dcj-Jt-W4R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="Gdv-Dw-vHu"/>
+                            <constraint firstItem="Dcj-Jt-W4R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="L9c-yc-ZN0"/>
+                            <constraint firstItem="bed-La-eix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Smg-Zy-DJ6"/>
+                            <constraint firstItem="bed-La-eix" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="TyV-IA-aZZ"/>
+                            <constraint firstItem="Izz-eN-zPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cyT-mU-cCX"/>
+                            <constraint firstItem="l0j-IZ-MJ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="sUq-TR-0HQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="damn1" destination="Dcj-Jt-W4R" id="qmA-A1-Gt6"/>
+                        <outlet property="damn2" destination="bed-La-eix" id="7zJ-aV-YqT"/>
+                        <outlet property="damn3" destination="l0j-IZ-MJ0" id="J08-u6-V0x"/>
+                        <outlet property="full" destination="pwg-ID-rRT" id="fvL-9L-NCy"/>
+                        <outlet property="stop" destination="Izz-eN-zPg" id="ym1-Ib-Je5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
