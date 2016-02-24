@@ -16,13 +16,7 @@
 		3E4D93831C7C22C400F9296B /* Back_at_it_again_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D93821C7C22C400F9296B /* Back_at_it_again_Tests.swift */; };
 		3E4D938E1C7C22C400F9296B /* Back_at_it_again_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D938D1C7C22C400F9296B /* Back_at_it_again_UITests.swift */; };
 		3E4D939C1C7C232C00F9296B /* DAMN DANIEL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D939B1C7C232C00F9296B /* DAMN DANIEL.mp3 */; };
-		3E4D93A61C7C27A700F9296B /* justback1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D939D1C7C27A700F9296B /* justback1.mp3 */; };
-		3E4D93A71C7C27A700F9296B /* back2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D939E1C7C27A700F9296B /* back2.mp3 */; };
-		3E4D93A81C7C27A700F9296B /* daniel3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D939F1C7C27A700F9296B /* daniel3.mp3 */; };
-		3E4D93A91C7C27A700F9296B /* daniel2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A01C7C27A700F9296B /* daniel2.mp3 */; };
 		3E4D93AA1C7C27A700F9296B /* damn3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A11C7C27A700F9296B /* damn3.mp3 */; };
-		3E4D93AB1C7C27A700F9296B /* daniel1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A21C7C27A700F9296B /* daniel1.mp3 */; };
-		3E4D93AC1C7C27A700F9296B /* van1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A31C7C27A700F9296B /* van1.mp3 */; };
 		3E4D93AD1C7C27A700F9296B /* damn2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A41C7C27A700F9296B /* damn2.mp3 */; };
 		3E4D93B51C7C384400F9296B /* damn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93B41C7C384400F9296B /* damn1.mp3 */; };
 /* End PBXBuildFile section */
@@ -60,13 +54,7 @@
 		3E4D938D1C7C22C400F9296B /* Back_at_it_again_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back_at_it_again_UITests.swift; sourceTree = "<group>"; };
 		3E4D938F1C7C22C400F9296B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4D939B1C7C232C00F9296B /* DAMN DANIEL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DAMN DANIEL.mp3"; sourceTree = "<group>"; };
-		3E4D939D1C7C27A700F9296B /* justback1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = justback1.mp3; sourceTree = "<group>"; };
-		3E4D939E1C7C27A700F9296B /* back2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back2.mp3; sourceTree = "<group>"; };
-		3E4D939F1C7C27A700F9296B /* daniel3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel3.mp3; sourceTree = "<group>"; };
-		3E4D93A01C7C27A700F9296B /* daniel2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel2.mp3; sourceTree = "<group>"; };
 		3E4D93A11C7C27A700F9296B /* damn3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn3.mp3; sourceTree = "<group>"; };
-		3E4D93A21C7C27A700F9296B /* daniel1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel1.mp3; sourceTree = "<group>"; };
-		3E4D93A31C7C27A700F9296B /* van1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = van1.mp3; sourceTree = "<group>"; };
 		3E4D93A41C7C27A700F9296B /* damn2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn2.mp3; sourceTree = "<group>"; };
 		3E4D93B41C7C384400F9296B /* damn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,14 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				3E4D939B1C7C232C00F9296B /* DAMN DANIEL.mp3 */,
-				3E4D939D1C7C27A700F9296B /* justback1.mp3 */,
-				3E4D939E1C7C27A700F9296B /* back2.mp3 */,
-				3E4D939F1C7C27A700F9296B /* daniel3.mp3 */,
-				3E4D93A01C7C27A700F9296B /* daniel2.mp3 */,
 				3E4D93A11C7C27A700F9296B /* damn3.mp3 */,
-				3E4D93A21C7C27A700F9296B /* daniel1.mp3 */,
 				3E4D93B41C7C384400F9296B /* damn1.mp3 */,
-				3E4D93A31C7C27A700F9296B /* van1.mp3 */,
 				3E4D93A41C7C27A700F9296B /* damn2.mp3 */,
 			);
 			name = Sounds;
@@ -234,6 +216,7 @@
 				TargetAttributes = {
 					3E4D93661C7C22C400F9296B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2UZ7HEAH89;
 					};
 					3E4D937D1C7C22C400F9296B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -270,18 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4D93A91C7C27A700F9296B /* daniel2.mp3 in Resources */,
 				3E4D93AD1C7C27A700F9296B /* damn2.mp3 in Resources */,
-				3E4D93A71C7C27A700F9296B /* back2.mp3 in Resources */,
 				3E4D93781C7C22C400F9296B /* LaunchScreen.storyboard in Resources */,
 				3E4D93B51C7C384400F9296B /* damn1.mp3 in Resources */,
-				3E4D93AB1C7C27A700F9296B /* daniel1.mp3 in Resources */,
 				3E4D93751C7C22C400F9296B /* Assets.xcassets in Resources */,
-				3E4D93A81C7C27A700F9296B /* daniel3.mp3 in Resources */,
 				3E4D939C1C7C232C00F9296B /* DAMN DANIEL.mp3 in Resources */,
-				3E4D93A61C7C27A700F9296B /* justback1.mp3 in Resources */,
 				3E4D93AA1C7C27A700F9296B /* damn3.mp3 in Resources */,
-				3E4D93AC1C7C27A700F9296B /* van1.mp3 in Resources */,
 				3E4D93701C7C22C400F9296B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,22 +427,28 @@
 		3E4D93931C7C22C400F9296B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Back at it again!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Calvin-Chueh.Back-at-it-again-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0361528d-e190-4de5-a9e0-1ab8009b1d5e";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3E4D93941C7C22C400F9296B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Back at it again!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Calvin-Chueh.Back-at-it-again-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0361528d-e190-4de5-a9e0-1ab8009b1d5e";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -536,6 +519,7 @@
 				3E4D93941C7C22C400F9296B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E4D93951C7C22C400F9296B /* Build configuration list for PBXNativeTarget "Back at it again!Tests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +528,7 @@
 				3E4D93971C7C22C400F9296B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E4D93981C7C22C400F9296B /* Build configuration list for PBXNativeTarget "Back at it again!UITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +537,7 @@
 				3E4D939A1C7C22C400F9296B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

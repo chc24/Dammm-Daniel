@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_van" translatesAutoresizingMaskIntoConstraints="NO" id="0Ak-to-EaI">
-                                <rect key="frame" x="0.0" y="84" width="600" height="496"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwg-ID-rRT">
-                                <rect key="frame" x="255" y="367" width="90" height="90"/>
+                                <rect key="frame" x="268" y="304" width="65" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="FzV-EH-Myp"/>
-                                    <constraint firstAttribute="width" constant="90" id="TD0-a4-tnr"/>
+                                    <constraint firstAttribute="height" constant="65" id="FzV-EH-Myp"/>
+                                    <constraint firstAttribute="width" constant="65" id="TD0-a4-tnr"/>
                                 </constraints>
                                 <state key="normal" title="Play Full"/>
                                 <connections>
@@ -33,10 +33,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izz-eN-zPg">
-                                <rect key="frame" x="255" y="477" width="90" height="90"/>
+                                <rect key="frame" x="258" y="495" width="85" height="85"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="szr-Qq-wUc"/>
-                                    <constraint firstAttribute="height" constant="90" id="zx5-yC-X8O"/>
+                                    <constraint firstAttribute="width" constant="85" id="szr-Qq-wUc"/>
+                                    <constraint firstAttribute="height" constant="85" id="zx5-yC-X8O"/>
                                 </constraints>
                                 <state key="normal" title="Stop Sound"/>
                                 <connections>
@@ -44,10 +44,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcj-Jt-W4R">
-                                <rect key="frame" x="45" y="131" width="90" height="90"/>
+                                <rect key="frame" x="45" y="94" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="HzE-LU-ahL"/>
-                                    <constraint firstAttribute="height" constant="90" id="xen-IT-HLl"/>
+                                    <constraint firstAttribute="width" constant="70" id="HzE-LU-ahL"/>
+                                    <constraint firstAttribute="height" constant="70" id="xen-IT-HLl"/>
                                 </constraints>
                                 <state key="normal" title="DAMN 1"/>
                                 <connections>
@@ -55,10 +55,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bed-La-eix">
-                                <rect key="frame" x="255" y="131" width="90" height="90"/>
+                                <rect key="frame" x="265" y="94" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="TDZ-EE-kqV"/>
-                                    <constraint firstAttribute="height" constant="90" id="oaA-hP-wz8"/>
+                                    <constraint firstAttribute="width" constant="70" id="TDZ-EE-kqV"/>
+                                    <constraint firstAttribute="height" constant="70" id="oaA-hP-wz8"/>
                                 </constraints>
                                 <state key="normal" title="DAMN 2"/>
                                 <connections>
@@ -66,10 +66,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0j-IZ-MJ0">
-                                <rect key="frame" x="465" y="131" width="90" height="90"/>
+                                <rect key="frame" x="485" y="94" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="bB5-du-ih3"/>
-                                    <constraint firstAttribute="height" constant="90" id="of6-wF-Q7C"/>
+                                    <constraint firstAttribute="width" constant="70" id="bB5-du-ih3"/>
+                                    <constraint firstAttribute="height" constant="70" id="of6-wF-Q7C"/>
                                 </constraints>
                                 <state key="normal" title="DAMN 3"/>
                                 <connections>
@@ -77,10 +77,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-bb-CqU">
-                                <rect key="frame" x="246" y="253" width="110" height="110"/>
+                                <rect key="frame" x="251" y="184" width="100" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="110" id="QbP-Lr-cIo"/>
-                                    <constraint firstAttribute="height" constant="110" id="p7M-fX-cWg"/>
+                                    <constraint firstAttribute="width" constant="100" id="QbP-Lr-cIo"/>
+                                    <constraint firstAttribute="height" constant="100" id="p7M-fX-cWg"/>
                                 </constraints>
                                 <state key="normal" title="Record Name"/>
                                 <connections>
@@ -90,27 +90,31 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pwg-ID-rRT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="112" id="1YX-g1-daO"/>
-                            <constraint firstItem="Izz-eN-zPg" firstAttribute="top" secondItem="pwg-ID-rRT" secondAttribute="bottom" constant="20" id="5Cf-co-idQ"/>
-                            <constraint firstItem="QG5-bb-CqU" firstAttribute="top" secondItem="bed-La-eix" secondAttribute="bottom" constant="32" id="9Kr-5b-jCL"/>
+                            <constraint firstItem="pwg-ID-rRT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="134.5" id="1YX-g1-daO"/>
+                            <constraint firstItem="Izz-eN-zPg" firstAttribute="top" secondItem="pwg-ID-rRT" secondAttribute="bottom" constant="18" id="5Cf-co-idQ"/>
+                            <constraint firstItem="QG5-bb-CqU" firstAttribute="top" secondItem="bed-La-eix" secondAttribute="bottom" constant="20" id="9Kr-5b-jCL"/>
+                            <constraint firstItem="pwg-ID-rRT" firstAttribute="top" secondItem="QG5-bb-CqU" secondAttribute="bottom" constant="20" id="Bdz-X7-FS2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="l0j-IZ-MJ0" secondAttribute="trailing" constant="25" id="Cwh-Mm-wST"/>
                             <constraint firstItem="pwg-ID-rRT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F2M-7X-YaC"/>
                             <constraint firstItem="QG5-bb-CqU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="FBq-ez-NhO"/>
-                            <constraint firstItem="Dcj-Jt-W4R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="Gdv-Dw-vHu"/>
+                            <constraint firstItem="Dcj-Jt-W4R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Gdv-Dw-vHu"/>
                             <constraint firstItem="Dcj-Jt-W4R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="L9c-yc-ZN0"/>
                             <constraint firstItem="0Ak-to-EaI" firstAttribute="top" secondItem="pwg-ID-rRT" secondAttribute="bottom" constant="20" id="LsI-ab-LuY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Izz-eN-zPg" secondAttribute="bottom" constant="20" id="S5k-HG-8eN"/>
                             <constraint firstItem="bed-La-eix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Smg-Zy-DJ6"/>
-                            <constraint firstItem="bed-La-eix" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="TyV-IA-aZZ"/>
+                            <constraint firstItem="bed-La-eix" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="TyV-IA-aZZ"/>
                             <constraint firstItem="Izz-eN-zPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cyT-mU-cCX"/>
-                            <constraint firstItem="l0j-IZ-MJ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="sUq-TR-0HQ"/>
+                            <constraint firstItem="l0j-IZ-MJ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="sUq-TR-0HQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0Ak-to-EaI" secondAttribute="trailing" constant="-20" id="tLM-b6-5jH"/>
                             <constraint firstItem="0Ak-to-EaI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="vb9-gx-xWu"/>
-                            <constraint firstItem="0Ak-to-EaI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="xOK-Wj-y8e"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Ak-to-EaI" secondAttribute="bottom" constant="20" id="xWR-WA-6X6"/>
+                            <constraint firstItem="0Ak-to-EaI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xOK-Wj-y8e"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Ak-to-EaI" secondAttribute="bottom" id="xWR-WA-6X6"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="LsI-ab-LuY"/>
+                                <exclude reference="1YX-g1-daO"/>
+                                <exclude reference="5Cf-co-idQ"/>
                             </mask>
                         </variation>
                     </view>

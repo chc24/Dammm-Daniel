@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     var nameRecorded = false
     
     @IBAction func recordSound(sender: UIButton) {
-        print("clicked")
         if nameRecorded {
             if (!audioRecorder.recording){
                 do {
@@ -36,7 +35,6 @@ class ViewController: UIViewController {
             }
         }
         else if isRecording {
-            print("isrecording")
             record.setTitle("Stop Record", forState: UIControlState.Normal)
             isRecording = false
             if !audioRecorder.recording {
@@ -83,7 +81,6 @@ class ViewController: UIViewController {
     }
     
     func playSound(name: String) {
-        print("called")
         let url:NSURL = NSBundle.mainBundle().URLForResource(name, withExtension: "mp3")!
         
         do { audioPlayer = try AVAudioPlayer(contentsOfURL: url, fileTypeHint: nil) }

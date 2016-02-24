@@ -16,7 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © oncloudcal.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epG-Et-7cu">
+                                <rect key="frame" x="131" y="406" width="339" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="339" id="6jP-6Z-M89"/>
+                                    <constraint firstAttribute="height" constant="44" id="yWl-38-N3A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BACK AT IT AGAIN WITH THE APPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyO-wl-Ygd">
+                                <rect key="frame" x="159" y="268" width="283" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAMMM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRr-61-ZCR">
+                                <rect key="frame" x="225" y="194" width="151" height="46"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40116950869560242" green="0.55789482593536377" blue="0.70169895887374878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="epG-Et-7cu" secondAttribute="bottom" constant="150" id="5Pn-ZN-CmV"/>
+                            <constraint firstItem="QRr-61-ZCR" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="174" id="9dq-0J-0Tn"/>
+                            <constraint firstItem="epG-Et-7cu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Npk-Ni-6dX"/>
+                            <constraint firstItem="gyO-wl-Ygd" firstAttribute="top" secondItem="QRr-61-ZCR" secondAttribute="bottom" constant="28" id="VgY-ah-4VD"/>
+                            <constraint firstItem="QRr-61-ZCR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bSm-db-nds"/>
+                            <constraint firstItem="gyO-wl-Ygd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n4j-gf-d7q"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
