@@ -19,6 +19,9 @@
 		3E4D93AA1C7C27A700F9296B /* damn3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A11C7C27A700F9296B /* damn3.mp3 */; };
 		3E4D93AD1C7C27A700F9296B /* damn2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93A41C7C27A700F9296B /* damn2.mp3 */; };
 		3E4D93B51C7C384400F9296B /* damn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D93B41C7C384400F9296B /* damn1.mp3 */; };
+		3EE212491C8154D900E3BF80 /* daniel3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EE212481C8154D900E3BF80 /* daniel3.mp3 */; };
+		3EE2124B1C8154E600E3BF80 /* daniel2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EE2124A1C8154E600E3BF80 /* daniel2.mp3 */; };
+		3EE2124D1C8154F000E3BF80 /* daniel1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EE2124C1C8154F000E3BF80 /* daniel1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		3E4D93A11C7C27A700F9296B /* damn3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn3.mp3; sourceTree = "<group>"; };
 		3E4D93A41C7C27A700F9296B /* damn2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn2.mp3; sourceTree = "<group>"; };
 		3E4D93B41C7C384400F9296B /* damn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damn1.mp3; sourceTree = "<group>"; };
+		3EE212481C8154D900E3BF80 /* daniel3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel3.mp3; sourceTree = "<group>"; };
+		3EE2124A1C8154E600E3BF80 /* daniel2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel2.mp3; sourceTree = "<group>"; };
+		3EE2124C1C8154F000E3BF80 /* daniel1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daniel1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,9 @@
 				3E4D93A11C7C27A700F9296B /* damn3.mp3 */,
 				3E4D93B41C7C384400F9296B /* damn1.mp3 */,
 				3E4D93A41C7C27A700F9296B /* damn2.mp3 */,
+				3EE212481C8154D900E3BF80 /* daniel3.mp3 */,
+				3EE2124A1C8154E600E3BF80 /* daniel2.mp3 */,
+				3EE2124C1C8154F000E3BF80 /* daniel1.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -254,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E4D93AD1C7C27A700F9296B /* damn2.mp3 in Resources */,
+				3EE212491C8154D900E3BF80 /* daniel3.mp3 in Resources */,
+				3EE2124B1C8154E600E3BF80 /* daniel2.mp3 in Resources */,
+				3EE2124D1C8154F000E3BF80 /* daniel1.mp3 in Resources */,
 				3E4D93781C7C22C400F9296B /* LaunchScreen.storyboard in Resources */,
 				3E4D93B51C7C384400F9296B /* damn1.mp3 in Resources */,
 				3E4D93751C7C22C400F9296B /* Assets.xcassets in Resources */,

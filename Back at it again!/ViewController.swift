@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    
     var audioPlayer = AVAudioPlayer()
     var audioRecorder: AVAudioRecorder!
     
@@ -23,6 +23,36 @@ class ViewController: UIViewController {
     
     var isRecording = true
     var nameRecorded = false
+    
+    var activeButtons: [UIButton]!
+    let damn = ["damn1", "damn2", "damn3"]
+    let daniel = ["daniel1", "daniel2", "daniel3"]
+    
+    var damnDaniel: Int!
+    
+    @IBAction func rateButtonClicked(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "https://itunes.apple.com/us/app/dammm/id1086915347")!)
+    }
+    
+    @IBOutlet weak var changeSoundButton: UIBarButtonItem!
+    
+    @IBAction func changeSounds(sender: AnyObject) {
+        var temp = 0
+        if damnDaniel == 0 {
+            
+            for item in activeButtons {
+                item.titleLabel!.text = daniel[temp]
+                temp++
+            }
+            damnDaniel = 1
+        } else {
+            for item in activeButtons {
+                item.titleLabel!.text = damn[temp]
+                temp++
+            }
+            damnDaniel = 0
+        }
+    }
     
     @IBAction func recordSound(sender: UIButton) {
         if nameRecorded {
@@ -56,31 +86,39 @@ class ViewController: UIViewController {
                 try audioSession.setActive(false)
             } catch {
             }
-
+            
         }
     }
     
     @IBAction func stopSound(sender: AnyObject) {
         audioPlayer.stop()
     }
+    
     @IBAction func playFull(sender: AnyObject) {
         playSound("DAMN DANIEL")
         
     }
     
     @IBAction func playDamn1(sender: AnyObject) {
-        playSound("damn1")
+        playSound(activeButtons[0].titleLabel!.text!)
     }
     
     @IBAction func playDamn2(sender: AnyObject) {
-        playSound("damn2")
+        playSound(activeButtons[1].titleLabel!.text!)
     }
     
     @IBAction func playDamn3(sender: AnyObject) {
-        playSound("damn3")
+        playSound(activeButtons[2].titleLabel!.text!)
     }
     
     func playSound(name: String) {
+        
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.overrideOutputAudioPort(AVAudioSessionPortOverride.Speaker)
+        } catch {
+        }
+        
         let url:NSURL = NSBundle.mainBundle().URLForResource(name, withExtension: "mp3")!
         
         do { audioPlayer = try AVAudioPlayer(contentsOfURL: url, fileTypeHint: nil) }
@@ -101,7 +139,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "DAMNNNN"
+        
+        self.title = "DAMN DANIEL"
+        damnDaniel = 0
         
         var buttons = [UIButton!]()
         buttons.append(damn1)
@@ -111,18 +151,22 @@ class ViewController: UIViewController {
         buttons.append(stop)
         buttons.append(record)
         
+        activeButtons = [damn1,damn2,damn3]
+        
         for button in buttons {
             formatButton(button)
+            
+            button.titleLabel!.adjustsFontSizeToFitWidth = true;
         }
         
         let audioSession = AVAudioSession.sharedInstance()
         do {
-            //try audioSession.overrideOutputAudioPort(AVAudioSessionPortOverride.Speaker)
             try audioSession.setCategory(AVAudioSessionCategoryPlayAndRecord)
             try audioRecorder = AVAudioRecorder(URL: self.directoryURL()!,
                 settings: recordSettings)
             audioRecorder.prepareToRecord()
         } catch {
+            print("denieD")
         }
         // Do any additional setup after loading the view, typically from a nib.
         
@@ -143,12 +187,12 @@ class ViewController: UIViewController {
         button.layer.borderWidth = 2
         button.layer.borderColor = UIColor.blackColor().CGColor
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 

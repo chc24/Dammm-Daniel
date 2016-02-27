@@ -49,7 +49,7 @@
                                     <constraint firstAttribute="width" constant="70" id="HzE-LU-ahL"/>
                                     <constraint firstAttribute="height" constant="70" id="xen-IT-HLl"/>
                                 </constraints>
-                                <state key="normal" title="DAMN 1"/>
+                                <state key="normal" title="damn1"/>
                                 <connections>
                                     <action selector="playDamn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qk-pN-nHz"/>
                                 </connections>
@@ -60,7 +60,7 @@
                                     <constraint firstAttribute="width" constant="70" id="TDZ-EE-kqV"/>
                                     <constraint firstAttribute="height" constant="70" id="oaA-hP-wz8"/>
                                 </constraints>
-                                <state key="normal" title="DAMN 2"/>
+                                <state key="normal" title="damn2"/>
                                 <connections>
                                     <action selector="playDamn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3EW-Wd-cT7"/>
                                 </connections>
@@ -71,7 +71,7 @@
                                     <constraint firstAttribute="width" constant="70" id="bB5-du-ih3"/>
                                     <constraint firstAttribute="height" constant="70" id="of6-wF-Q7C"/>
                                 </constraints>
-                                <state key="normal" title="DAMN 3"/>
+                                <state key="normal" title="damn3"/>
                                 <connections>
                                     <action selector="playDamn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUn-Xv-xMU"/>
                                 </connections>
@@ -118,8 +118,22 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="OSK-5c-sB1"/>
+                    <navigationItem key="navigationItem" id="OSK-5c-sB1">
+                        <barButtonItem key="leftBarButtonItem" title="Rate Me!" id="7Tl-OT-8oc">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="rateButtonClicked:" destination="BYZ-38-t0r" id="x0L-JN-8A4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Daniel!" id="VdT-5Z-gCv">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="changeSounds:" destination="BYZ-38-t0r" id="LMG-76-5oB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="changeSoundButton" destination="VdT-5Z-gCv" id="M44-Fw-H1l"/>
                         <outlet property="damn1" destination="Dcj-Jt-W4R" id="qmA-A1-Gt6"/>
                         <outlet property="damn2" destination="bed-La-eix" id="7zJ-aV-YqT"/>
                         <outlet property="damn3" destination="l0j-IZ-MJ0" id="J08-u6-V0x"/>
